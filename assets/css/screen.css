@@ -28,7 +28,7 @@ h1,
 }
 a,
 a:visited {
-  color: #0b79e5;
+  color: #2fcf03;
   text-decoration: none;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
@@ -77,7 +77,7 @@ p code {
   background-color: rgba(0, 0, 0, 0.05);
 }
 h1 {
-  color: #0b79e5;
+  color: #2fcf03;
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -126,16 +126,33 @@ h1.blog-title {
 h2.blog-description {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
-  margin-bottom: 3em;
   padding: .5em 1em;
   line-height: 1.2em;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  text-transform: uppercase;
   font-size: 1.6em;
   color: #95a5a6;
 }
 h1.post-title {
   font-size: 3em;
+}
+h3.blog-link {
+  margin-bottom: 2em;
+  text-align: center;
+  background-color: #2fcf03;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 23px;
+  border-radius: 5px;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid #2fcf03;
+}
+h3.blog-link:hover {
+  color: #2fcf03;
+  border: 3px solid #2fcf03;
+  background-color: #fff;
+  box-sizing: border-box;
 }
 header.article-header,
 header.page-header {
@@ -217,7 +234,7 @@ blockquote p {
 }
 h1.post-title a,
 h1.blog-title a {
-  color: #0b79e5;
+  color: #2fcf03;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
@@ -233,7 +250,7 @@ h1.blog-title a:hover {
   margin-top: 2em;
   font-size: 2em;
   font-weight: 400;
-  color: #0b79e5;
+  color: #2fcf03;
 }
 section.post-content img {
   display: block;
@@ -349,7 +366,7 @@ a.archive-link {
   padding: 0.5em 0;
 }
 .pagination a {
-  color: #0b79e5;
+  color: #2fcf03;
 }
 .older-posts,
 .newer-posts {
@@ -486,7 +503,7 @@ pre[class*="language-"] {
   /* Hide GitHub attribution */
 }
 .gist .gist-file .gist-meta a:visited {
-  color: #0b79e5 !important;
+  color: #2fcf03 !important;
 }
 .gist .gist-file .gist-data {
   background: #fdfdfd !important;
@@ -527,7 +544,8 @@ pre[class*="language-"] {
 .icon-feed,
 .icon-twitter,
 .icon-google-plus,
-.icon-facebook {
+.icon-facebook,
+.icon-calendar {
   font-family: 'icons';
   speak: none;
   font-style: normal;
