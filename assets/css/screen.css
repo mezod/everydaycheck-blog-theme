@@ -145,16 +145,19 @@ h3.blog-link {
   font-weight: 600;
   padding: 13px 23px;
   border-radius: 5px;
-  height: 50px;
   cursor: pointer;
   border: 3px solid #249c03;
   width: 200px;
+  box-sizing: border-box;
 }
 h3.blog-link:hover {
   color: #249c03;
   border: 3px solid #249c03;
   background-color: #fff;
   box-sizing: border-box;
+}
+h3.blog-link a{
+  color: #fff;
 }
 header.article-header,
 header.page-header {
