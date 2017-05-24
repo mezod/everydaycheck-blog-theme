@@ -162,6 +162,16 @@ h3.blog-link a{
 h3.blog-link:hover a{
   color: #249c03;
 }
+.applink{
+  float: right;
+  color: #249c03;
+  font-size: 16px;
+  font-weight: 600;
+}
+.applink:hover{
+  color: #2fcf03;
+  text-decoration: underline;
+}
 header.article-header,
 header.page-header {
   margin-bottom: 3em;
@@ -250,7 +260,7 @@ h1.post-title a:focus,
 h1.post-title a:hover,
 h1.blog-title a:focus,
 h1.blog-title a:hover {
-  color: #249c03;
+  color: #2fcf03;
   text-decoration: none;
 }
 .post-content h2 {
