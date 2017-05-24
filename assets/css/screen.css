@@ -137,13 +137,13 @@ h1.post-title {
   font-size: 3em;
 }
 h3.blog-link {
-  margin-bottom: 2em;
+  margin: 0 auto 2em;
   text-align: center;
   background-color: #249c03;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
-  padding: 13px 23px;
+  padding: 8px 23px;
   border-radius: 5px;
   cursor: pointer;
   border: 3px solid #249c03;
@@ -158,6 +158,9 @@ h3.blog-link:hover {
 }
 h3.blog-link a{
   color: #fff;
+}
+h3.blog-link:hover a{
+  color: #249c03;
 }
 header.article-header,
 header.page-header {
@@ -247,7 +250,7 @@ h1.post-title a:focus,
 h1.post-title a:hover,
 h1.blog-title a:focus,
 h1.blog-title a:hover {
-  color: #07529c;
+  color: #249c03;
   text-decoration: none;
 }
 .post-content h2 {
