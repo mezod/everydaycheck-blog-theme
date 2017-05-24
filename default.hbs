@@ -11,8 +11,8 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
 
     {{ghost_head}}
     <script>
@@ -32,19 +32,19 @@
 
     <footer class="site-footer">
         <div class="inner">
-            <section class="copyright">&copy; 2014 <a href="/">{{@blog.title}}</a>. All rights reserved.</section>
+            <section class="copyright">&copy; 2017 <a href="/">{{@blog.title}}</a>. everydayCheck | Do it every day!</section>
             <section class="social">
               <a href="https://twitter.com/everydaycheck" class="icon-twitter" target="_blank"></a>
-              <!-- <a href="https://github.com/mezod/listlogs" class="icon-github3" target="_blank"></a> -->
-              <a href="https://www.linkedin.com/in/joanboixados" class="icon-linkedin" target="_blank"></a>
+              <a href="https://www.facebook.com/everydaycheck" class="icon-facebook2" target="_blank"></a>
+              <a href="https://everydaycheck.com" class="icon-calendar" target="_blank"></a>
             </section>
         </div>
     </footer>
 
     {{ghost_foot}}
 
-    <script type="text/javascript" src="/assets/js/index.js"></script>
-    <script type="text/javascript" src="/assets/js/prism.js"></script>
+    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
 
 </body>
 </html>
