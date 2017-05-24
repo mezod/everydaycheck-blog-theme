@@ -4,6 +4,7 @@
     {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
     <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
     <h2 class="blog-description">{{@blog.description}}</h2>
+    <h3 class="blog-link"><a href="https://everydaycheck.com" target="_blank">Try everydayCheck!</a></h3>
 </header>
 
 <main class="content" role="main">
@@ -13,7 +14,6 @@
         {{#post}}
 
         <header>
-        {{#if tags}}<div class="post-meta tags">Posted in {{tags}}</div>{{/if}}
         <h1 class="post-title" itemprop="headline">{{{title}}}</h1>
         <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="dddd, MMMM DD, YYYY"}}</time></div>
         </header>
