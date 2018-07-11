@@ -1,11 +1,11 @@
 {{!< default}}
 
 <header id="site-head">
-    <a class="applink" href="https://everydaycheck.com" target="_blank">Try everydayCheck!</a>
+    <a class="applink" href="https://everyday.app" target="_blank">Try everyday.app!</a>
     {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
     <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
     <h2 class="blog-description">{{@blog.description}}</h2>
-    <!-- <h3 class="blog-link"><a href="https://everydaycheck.com" target="_blank">Try everydayCheck!</a></h3> -->
+    <!-- <h3 class="blog-link"><a href="https://everyday.app" target="_blank">Try everyday.app!</a></h3> -->
 </header>
 
 <main class="content" role="main">
@@ -44,7 +44,7 @@
             {{#if author}}
             <section class="author">
                 <address itemscope itemtype="http://schema.org/Person">
-                    <img src="{{author.image}}" class="userimage" alt="{{author.name}}" itemprop="image"/>
+                    <img src="{{author.profile_image}}" class="userimage" alt="{{author.name}}" itemprop="image"/>
                     <p class="attr">Author</p>
                     <h4 itemprop="author">{{author.name}}</h4>
                     <p class="bio">
@@ -59,7 +59,7 @@
 
         {{/post}}
 
-    <h3 class="blog-link"><a href="https://everydaycheck.com" target="_blank">Try everydayCheck!</a></h3>
+    <h3 class="blog-link"><a href="https://everyday.app" target="_blank">Try everyday.app!</a></h3>
     
     <div id="disqus_thread"></div>
     <script>

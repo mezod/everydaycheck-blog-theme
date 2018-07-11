@@ -1,0 +1,20 @@
+{
+    "name": "everytdaycheck-blog-theme",
+    "description": "Theme for everyday.app's blog.",
+    "demo": "https://everyday.app/blog",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Everyday SA",
+        "email": "joan@everyday.app",
+        "url": "https://everyday.app/blog"
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mezod/everytdaycheck-blog-theme.git"
+    }
+}
