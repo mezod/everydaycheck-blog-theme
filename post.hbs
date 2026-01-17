@@ -2,9 +2,9 @@
 
 <header id="site-head">
     <a class="applink" href="https://everyday.app" target="_blank">Try everyday.app!</a>
-    {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-    <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-    <h2 class="blog-description">{{@blog.description}}</h2>
+    {{#if @site.logo}}<a id="blog-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="Blog Logo" /></a>{{/if}}
+    <h1 class="blog-title"><a href="{{@site.url}}">{{@site.title}}</a></h1>
+    <h2 class="blog-description">{{@site.description}}</h2>
     <!-- <h3 class="blog-link"><a href="https://everyday.app" target="_blank">Try everyday.app!</a></h3> -->
 </header>
 
@@ -41,16 +41,16 @@
 
         <footer class="post-footer">
 
-            {{#if author}}
+            {{#if primary_author}}
             <section class="author">
                 <address itemscope itemtype="http://schema.org/Person">
-                    <img src="{{author.profile_image}}" class="userimage" alt="{{author.name}}" itemprop="image"/>
+                    <img src="{{primary_author.profile_image}}" class="userimage" alt="{{primary_author.name}}" itemprop="image"/>
                     <p class="attr">Author</p>
-                    <h4 itemprop="author">{{author.name}}</h4>
+                    <h4 itemprop="author">{{primary_author.name}}</h4>
                     <p class="bio">
-                        <a href="{{author.website}}" itemprop="url">{{author.website}}</a>
+                        <a href="{{primary_author.website}}" itemprop="url">{{primary_author.website}}</a>
                     </p>
-                    <p class="bio">{{author.bio}}</p>
+                    <p class="bio">{{primary_author.bio}}</p>
                 </address>
             </section>
             {{/if}}
