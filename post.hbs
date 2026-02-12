@@ -14,6 +14,26 @@
 
         {{#post}}
 
+        <style>
+            .post-feature-image {
+              max-width: 900px;
+              margin: 2rem auto;
+              margin-bottom: 100px;
+            }
+
+            .post-feature-image img {
+              width: 100%;
+              height: auto;
+              display: block;
+            }
+        </style>
+
+        {{#if feature_image}}
+          <figure class="post-feature-image">
+            <img src="{{feature_image}}" alt="{{title}}">
+          </figure>
+        {{/if}}
+
         <header>
         <h1 class="post-title" itemprop="headline">{{{title}}}</h1>
         <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="dddd, MMMM DD, YYYY"}}</time></div>
